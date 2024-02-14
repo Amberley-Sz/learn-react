@@ -14,12 +14,14 @@ import styles from '@/styles/Home.module.css'
 // import Gallery from './components/state';
 // import RecipeList from "@/pages/qcomps/recipes";
 // import MenuBar from "@/pages/qcomps/menuBar";
-import Form from './qcomps/stuckForm'
+// import Form from './qcomps/stuckForm'
+// import FeedbackForm from "@/pages/qcomps/thankYouCrash";
+import Scoreboard from './qcomps/updObjectsForm'
 
 export default function Home() {
   return (
     <div className={styles.main}>
-        <Form />
+        <Scoreboard />
     </div>
   )
 }
