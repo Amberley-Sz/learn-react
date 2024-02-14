@@ -1,17 +1,44 @@
+function Profile(name, imgUrl, profession, award, discovered) {
+  return (
+      <div>
+        <h1>{name}</h1>
+        <img className='avatar'
+             src={imgUrl}
+             alt={name}
+             width={70}
+             height={70}/>
+        <ul>
+          <li>
+            <b>Profession: </b>
+            {profession}
+          </li>
+          <li>
+            <b>Awards: 4 </b>
+            (Nobel Prize in Physics, Nobel Prize in Chemistry, Davy Medal, Matteucci Medal)
+          </li>
+          <li>
+            <b>Discovered: </b>
+            polonium (element)
+          </li>
+        </ul>
+      </div>
+  )
+}
+
 export default function Gallery() {
   return (
-    <div>
-      <h1>Notable Scientists</h1>
-      <section className="profile">
-        <h2>Maria Skłodowska-Curie</h2>
-        <img
-          className="avatar"
-          src='https://i.imgur.com/szV5sdGs.jpg'
-          alt="Maria Skłodowska-Curie"
-          width={70}
-          height={70}
-        />
-        <ul>
+      <div>
+        <h1>Notable Scientists</h1>
+        <section className="profile">
+          <h2>Maria Skłodowska-Curie</h2>
+          <img
+              className="avatar"
+              src='https://i.imgur.com/szV5sdGs.jpg'
+              alt="Maria Skłodowska-Curie"
+              width={70}
+              height={70}
+          />
+          <ul>
           <li>
             <b>Profession: </b>
             physicist and chemist
