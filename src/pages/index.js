@@ -17,11 +17,13 @@ import styles from '@/styles/Home.module.css'
 // import Form from './qcomps/stuckForm'
 // import FeedbackForm from "@/pages/qcomps/thankYouCrash";
 import Scoreboard from './qcomps/updObjectsForm'
+// import BucketList from './qcomps/arrObj'
+import List from './qcomps/artistsRemoveArr'
 
 export default function Home() {
   return (
     <div className={styles.main}>
-        <Scoreboard />
+        <List />
     </div>
   )
 }
